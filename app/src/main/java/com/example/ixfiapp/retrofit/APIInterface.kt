@@ -9,5 +9,4 @@ interface APIInterface {
     @POST("market-pairs")
     suspend fun getExamples(): Response<ExampleData?>
 
-
 }
